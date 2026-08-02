@@ -69,8 +69,6 @@ Inside your modern Intel or AMD processor, behind the von Neumann facade of a si
 
 Rust is a language that knows about this architectural schizophrenia. It knows we write code for a von Neumann machine but dream in Harvard's safety.
 
-![Rust: Systems Engineering Core](https://github.com/user-attachments/assets/6bb6e03c-5920-4253-ab0e-c9fcbb49c666)
-
 Consider `usize`. It is not merely "a number for indices." Its size—four bytes on a 32-bit machine, eight on a 64-bit one—is exactly the width of the data bus, the number of bits needed to address every byte in the unified memory space. It is a direct bridge to the architecture.
 
 Consider immutability. In Harvard architecture, code is hardware-immutable. Rust makes variables *software-immutable* by default. It is an emulation of Harvard's reliability within the flexible, dangerous shared memory of von Neumann.
