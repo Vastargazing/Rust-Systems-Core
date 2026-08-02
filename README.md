@@ -37,7 +37,8 @@ Turing's model teaches us humility. Before we worry about cache lines and SIMD i
 
 If Turing gave us the theoretical ceiling, John von Neumann gave us the basement we actually live in. In 1945, von Neumann described an architecture so practical that it became the foundation of virtually every computer on Earth. The principle is seductively simple: one shared memory holds both your program instructions and your data. One shared bus carries both. The CPU fetches an instruction, executes it, fetches the next. Simple. Flexible. And catastrophically vulnerable.
 
-<img width="510" height="295" alt="image" src="https://github.com/user-attachments/assets/00603ddc-c9af-44dd-86ef-05cb54709f8f" />
+<img width="767" height="505" alt="image" src="https://github.com/user-attachments/assets/521307e1-3c66-47bf-89ca-b61306f0e406" />
+
 
 
 #### The Bottleneck
